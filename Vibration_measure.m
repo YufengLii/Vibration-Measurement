@@ -200,6 +200,8 @@ subplot(122);
 %imshow(vid(:,:,:,1));
 hold on;
 scatter(index_max_am_y(:,2), index_max_am_y(:,1));
+axis equal;
+axis([0 w 0 h]);
 set(gca,'YDir','reverse');
 grid on;
 
